@@ -9,9 +9,15 @@
       "email": "contato@andersonandra.de"
     }
   ],
+  "repositories": [
+    {
+        "type": "github",
+        "url": "https://github.com/REPO-BITIS/moip-assinaturas-php.git"
+    }
+  ],
   "require": {
     "php": ">=5.4.0",
-    "illuminate/support": "5.0.*|5.1.*",
+    "illuminate/support": "^6.0",
     "prettus/moip-assinaturas-php":"dev-master"
   },
   "require-dev": {
